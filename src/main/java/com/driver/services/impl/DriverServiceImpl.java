@@ -1,13 +1,10 @@
 package com.driver.services.impl;
 
-import com.driver.model.Cab;
 import com.driver.repository.CabRepository;
+import com.driver.repository.DriverRepository;
 import com.driver.services.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.driver.model.Driver;
-import com.driver.repository.DriverRepository;
 
 @Service
 public class DriverServiceImpl implements DriverService {
